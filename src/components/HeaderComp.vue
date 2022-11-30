@@ -5,34 +5,34 @@
     <nav>
       <ul>
         <li><a href="#">
-           Characters
+           CHARACTERS
         </a></li>
         <li><a href="#">
-           Comics    
+           COMICS    
         </a></li>
         <li><a href="#">
-           Movies 
+           MOVIES
         </a></li>
         <li><a href="#">
            TV
         </a></li>
         <li><a href="#">
-           Games
+           GAMES
         </a></li>
         <li><a href="#">
-           Collectibles
+           COLLECTIBLES
         </a></li>
         <li><a href="#">
-           Videos
+           VIDEOS
         </a></li>
         <li><a href="#">
-           Fans
+           FANS
         </a></li>
         <li><a href="#">
-           News
+           NEWS
         </a></li>
         <li><a href="#">
-           Shop
+           SHOP
         </a></li>
       </ul>
     </nav>
@@ -51,5 +51,17 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
+  margin: 0 auto;
+  width: 80%;
+
+  ul{
+   display: flex;
+   gap: 10px;
+  }
+
+  .active{
+   border-bottom: 2px solid #0282f9;
+  }
 }
 </style>
